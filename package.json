@@ -31,8 +31,8 @@
     "@types/snowpack-env": "^2.3.2",
     "@web/test-runner": "^0.10.0",
     "chai": "^4.2.0",
-    "prettier": "^2.0.5",
-    "snowpack": "^2.18.4",
+    "prettier": "prettier/prettier#a0c9e45e4d6b893a9d71954c058bf864366a4fd2",
+    "snowpack": "^3.0.11",
     "snowpack-plugin-skypack-replacer": "^1.0.0",
     "typescript": "^4.0.0"
   }

@@ -3367,10 +3367,10 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-snowpack-plugin-react-html-attrs@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/snowpack-plugin-react-html-attrs/-/snowpack-plugin-react-html-attrs-1.0.1.tgz#230e386a5e656af99675c5bbbafb73be090fd32f"
-  integrity sha512-pMG5aATQZyosIQTL5vIAQ1KP86Ri79HfXLs5XM6wtcnm7EkSdg5HU1vEp+1JFYP6rC0kP+CnIxQG3TZtQGEgfg==
+snowpack-plugin-react-html-attrs@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/snowpack-plugin-react-html-attrs/-/snowpack-plugin-react-html-attrs-1.0.3.tgz#40d88747e20fc3e6abb22d1f9e84695015948ffa"
+  integrity sha512-8Fd2KgRky0Qk34Zk9tUFHlZCjCTXX6qHLue/Z0qhv/mKENUbdbWuTm4wu64T4K7RfZryY1EHk/6MGKMtK7II/A==
 
 snowpack-plugin-skypack-replacer@^1.0.0:
   version "1.0.0"

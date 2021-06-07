@@ -4,6 +4,7 @@ module.exports = {
     sourcemap: true,
   },
   devOptions: {
+    open: 'none',
     port: 8000,
   },
   mount: {

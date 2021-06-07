@@ -4,12 +4,11 @@ type Props = {
   count: number;
 };
 
-type WeakMap = {
-  [k: string]: any;
-};
-
 function Component({ count }: Props) {
-  return <div className="App">Page has been open for {count} seconds.</div>;
+  return <div className="App">
+    {count}
+    <div class="test">Some styled text</div>
+  </div>;
 }
 
 export default function Container({ startTime = 0 }) {

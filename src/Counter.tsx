@@ -7,7 +7,6 @@ type Props = {
 function Component({ count }: Props) {
   return <div>
     {count}
-    <div class="test">Some styled text</div>
   </div>;
 }
 

@@ -11,6 +11,5 @@ ReactDOM.render(
 );
 
 if (import.meta.hot) {
-  console.log(import.meta.hot);
   import.meta.hot.accept();
 }

@@ -1,0 +1,87 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "html",
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "classes": true,
+      "jsx": true,
+      "forOf": false
+    },
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+  ],
+  "rules": {
+    "react/jsx-uses-vars": 1,
+    "guard-for-in": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "no-console": 0,
+    "no-alert": 0,
+    "no-bitwise": [
+      0,
+      {
+        "allow": [
+          "~" // Allow ~str.indexOf()
+        ]
+      }
+    ],
+    "camelcase": 0,
+    "eqeqeq": 0,
+    "no-debugger": 1,
+    "no-extra-semi": 1,
+    "comma-dangle": 0,
+    "no-empty": 0,
+    "no-unused-vars": [
+      1,
+      {
+        "args": "none", // Don"t check function arguments.
+        "varsIgnorePattern": "React|log|gup" // Allow unused React, log gup variables.
+      }
+    ],
+    "indent": [
+      "warn",
+      2,
+      {
+        "ignoreComments": true,
+        "MemberExpression": 0,
+        "SwitchCase": 1,
+      }
+    ],
+    "key-spacing": [
+      "warn",
+      {
+        "mode": "minimum"
+      }
+    ],
+    "no-multiple-empty-lines": [
+      1,
+      {
+        "max": 6
+      }
+    ]
+  },
+  "globals": {
+    "navigator": false,
+    "gapi": false,
+    "google": false,
+    "drift": false,
+    "gtag": false,
+    "Stripe": false,
+    "nolt": false,
+    "TrackJS": false,
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  }
+}

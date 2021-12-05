@@ -56,9 +56,7 @@ declare module '*.png' {
   export default ref;
 }
 
-/* CUSTOM: ADD YOUR OWN HERE */
-
-// Fix for Object.keys returning string[] instead of [Object.keys()][]
+// Fix for Object.keys returning string[] instead of Object.keys()[]
 // https://stackoverflow.com/a/65079383/1845423
 declare interface ObjectConstructor extends Omit<ObjectConstructor, 'keys' | 'entries'> {
   /**
@@ -79,3 +77,13 @@ declare interface ObjectConstructor extends Omit<ObjectConstructor, 'keys' | 'en
   entries(obj: {}): [string, any][];
 }
 declare var Object: ObjectConstructor;
+
+import { DOMAttributes } from "react";
+
+// Allow class properties to be used in JSX
+declare module 'react' {
+  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
+    // extends React's HTMLAttributes
+    class?: string;
+  }
+}

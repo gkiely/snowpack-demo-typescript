@@ -19,6 +19,7 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@canarise/snowpack-eslint-plugin": "gkiely/snowpack-eslint-plugin#worker-logger-dist",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-optimize": "^0.2.10",
     "@snowpack/plugin-react-refresh": "^2.3.9",
@@ -29,8 +30,12 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/snowpack-env": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
     "@web/test-runner": "^0.10.0",
     "chai": "^4.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-react": "^7.27.1",
     "prettier": "prettier/prettier#a0c9e45e4d6b893a9d71954c058bf864366a4fd2",
     "snowpack": "^3.0.11",
     "snowpack-plugin-react-html-attrs": "^1.0.3",

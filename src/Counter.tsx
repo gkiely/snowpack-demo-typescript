@@ -5,9 +5,7 @@ type Props = {
 };
 
 function Component({ count }: Props) {
-  return <div>
-    {count}
-  </div>;
+  return <div>{count}</div>;
 }
 
 export default function Container({ startTime = 0 }) {

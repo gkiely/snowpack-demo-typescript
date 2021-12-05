@@ -1,0 +1,8 @@
+- Move to vite
+  - Try out these templates
+  https://github.com/uchihamalolan/vite-react-ts
+  https://github.com/wtchnm/Vitamin/blob/main/package.json
+  - Move over snowpack config
+  - Enable prettier on commit
+  
+

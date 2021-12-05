@@ -22,6 +22,9 @@ module.exports = {
       },
     ],
     'snowpack-plugin-skypack-replacer',
+    ['@canarise/snowpack-eslint-plugin', {
+      globs: ['src/**/*.tsx'],
+    }],
   ],
   // packageOptions: {
   //   source: 'remote',
